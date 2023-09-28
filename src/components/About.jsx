@@ -9,7 +9,10 @@ const About = () => {
         <article>
           <SectionTitle text="code and coffee" />
           <p className="text-slate-600 mt-8 leading-loose">
-            Lorem Ipsun dolor sit amet consecteturm adipisicing
+            I&apos;m a passionate Front-end Developer, 22 years old, looking for
+            enriching opportunities transforming and designing concepts into
+            captivating web experiences, user-friendly and responsive interfaces
+            that engage and delight users.
           </p>
         </article>
       </div>
