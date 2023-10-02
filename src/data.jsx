@@ -1,5 +1,6 @@
 import { nanoid } from "nanoid";
 import { FaHtml5, FaJs, FaReact, FaDatabase, FaNodeJs } from "react-icons/fa";
+import jobster from "/jobster.svg";
 
 export const links = [
   { id: nanoid(), href: "#home", text: "home" },
@@ -44,17 +45,17 @@ export const skills = [
 export const projects = [
   {
     id: nanoid(),
-    img: "https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg?auto=compress&cs=tinysrgb&w=800",
-    url: "https://react-projects.netlify.app/",
-    github: "https://github.com/john-smilga",
-    title: "first project",
-    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.",
+    img: jobster,
+    url: "https://salasian.github.io/Jobster",
+    github: "https://github.com/Salasian/Jobster",
+    title: "Jobster",
+    text: "Jobster is a Web Page that candidates can use to follow-up and get detailed feedback about all the previous and current Job Offers they register.",
   },
   {
     id: nanoid(),
     img: "https://images.pexels.com/photos/2148222/pexels-photo-2148222.jpeg?auto=compress&cs=tinysrgb&w=800",
-    url: "https://react-projects.netlify.app/",
-    github: "https://github.com/john-smilga",
+    url: "https://comfy-store-salasian.netlify.app/",
+    github: "https://github.com/Salasian/Comfy-Store",
     title: "second project",
     text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.",
   },
