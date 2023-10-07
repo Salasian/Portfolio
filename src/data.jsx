@@ -1,6 +1,7 @@
 import { nanoid } from "nanoid";
 import { FaHtml5, FaJs, FaReact, FaDatabase, FaNodeJs } from "react-icons/fa";
 import jobster from "/jobster.svg";
+import comfy from "/comfyshop.svg";
 
 export const links = [
   { id: nanoid(), href: "#home", text: "home" },
@@ -53,11 +54,11 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: "https://images.pexels.com/photos/2148222/pexels-photo-2148222.jpeg?auto=compress&cs=tinysrgb&w=800",
+    img: comfy,
     url: "https://comfy-store-salasian.netlify.app/",
     github: "https://github.com/Salasian/Comfy-Store",
-    title: "second project",
-    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.",
+    title: "ComfyStore",
+    text: "ComfyStore is an E-Shop focused on Furnitures and Movables. It allows you to create a cart with your desired furnitures, make a list, pay, and filter the movables in order to find the one you desire the most.",
   },
   {
     id: nanoid(),
